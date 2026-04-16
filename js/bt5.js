@@ -21,7 +21,7 @@ btnTongKySo.onclick = function () {
   let total = hangChuc + hangDonvi;
 
   let rs = `Kết quả: <span>${total}</span>`;
-  pInfo = document.getElementById("pInfo");
-  pInfo.innerHTML = rs; // do rs là span dấu đô la
-  pInfo.classList.add("showInfo");
+  pInfo_5 = document.getElementById("pInfo_5");
+  pInfo_5.innerHTML = rs; // do rs là span dấu đô la, thẻ này có thể style được
+  pInfo_5.classList.add("showInfo");
 };
