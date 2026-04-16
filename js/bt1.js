@@ -4,7 +4,7 @@
  * - Tạo biến LuongNgay
  * - Tạo biến NgayLam
  * - Tạo biến total = LuongNgay * NgayLam
- * Đầu ra: show kết quả ra ngoài thẻ p
+ * Đầu ra: show kết quả ra ngoài thẻ p``
  */
 let btnTongTienLuong = document.getElementById("btnTongTienLuong");
 btnTongTienLuong.onclick = function () {
